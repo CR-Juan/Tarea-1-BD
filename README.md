@@ -7,7 +7,7 @@
 Completado — API REST funcional con operaciones CRUD y consultas mediante Stored Procedures.
  
 ### Enlace del video:
-[Pendiente de agregar]
+https://youtu.be/hNyud_kWw7w
  
 ---
  
