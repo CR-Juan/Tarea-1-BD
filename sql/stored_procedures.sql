@@ -65,6 +65,19 @@ END;
 EXEC sp_GetProductLocation;
 GO
 
+-- Procedure de Selección por ID
+CREATE PROCEDURE sp_GetProductLocationById
+    @LocationID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT LocationID, Name, CostRate, Availability, ModifiedDate
+    FROM Production.Location
+    WHERE LocationID = @LocationID;
+END;
+GO
+
 -- Procedure de Selección con Join
 CREATE PROCEDURE sp_GetProductStockByLocation
     @LocationID INT
