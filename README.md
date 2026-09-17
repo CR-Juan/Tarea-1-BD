@@ -157,7 +157,9 @@ La API queda disponible en `http://localhost:8081`.
 ```
 http://localhost:8081/locations
 ```
- 
+
+<img width="561" height="858" alt="image" src="https://github.com/user-attachments/assets/a6d16521-3e67-4f31-b192-cfccb562695e" />
+
 Respuesta esperada (ejemplo):
  
 ```json
@@ -175,16 +177,25 @@ Respuesta esperada (ejemplo):
 ### GET /locations/:id
  
 ```
-http://localhost:8081/locations/1
+http://localhost:8081/locations/60
 ```
+<img width="582" height="682" alt="image" src="https://github.com/user-attachments/assets/41506916-90dc-414f-a18a-10749584ab57" />
+
  
 ### GET /locations/:id/stock
  
 ```
 http://localhost:8081/locations/1/stock
 ```
+<img width="530" height="911" alt="image" src="https://github.com/user-attachments/assets/7973eb61-314c-4069-b906-5cb677859f66" />
+
  
 ### POST /locations
+
+<img width="783" height="316" alt="image" src="https://github.com/user-attachments/assets/35248e8f-d0dc-43c6-a48c-59263f2e79ac" />
+
+<img width="419" height="146" alt="image" src="https://github.com/user-attachments/assets/66db8811-5806-462d-82f4-8f976b1ae84a" />
+
  
 Body (JSON):
  
@@ -202,6 +213,9 @@ Body (JSON):
 ```
 http://localhost:8081/locations/62
 ```
+
+<img width="704" height="327" alt="image" src="https://github.com/user-attachments/assets/7db9155e-0e33-4517-8ae9-f9d411527036" />
+
  
 Body (JSON):
  
@@ -219,6 +233,9 @@ Body (JSON):
 ```
 http://localhost:8081/locations/62
 ```
+
+<img width="573" height="246" alt="image" src="https://github.com/user-attachments/assets/5d3083df-8d00-4c7b-95db-e207b28dbc9c" />
+
  
 ## 6. Estructura del proyecto
  
